@@ -1,0 +1,89 @@
+body {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-image: url("img/sheets.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#calcifer::after{
+   
+    content: 'Here is some text..';
+    color: #fff;
+
+    
+}
+#links {
+    background-color: rgba(255,255,255,0.5);
+    
+}
+@media (min-width: 226px) {
+   body { 
+       margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 2.5px;
+        margin-bottom: 2.5px;
+   }
+    #calcifer {
+        width:40%;
+        height:auto;
+    }
+    #i {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    #calcifer {
+        width:42%;
+        height:auto;
+    }
+    #i {
+        font-size: 1rem;
+    }
+}
+@media (min-width: 768px) {
+    #calcifer {
+        width:44%;
+        height:auto;
+    }
+    #i {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media (min-width: 992px) {
+    #calcifer {
+        width:46%;
+        height:auto;
+    }
+    #i {
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    #calcifer {
+        width:48%;
+        height:auto;
+    }
+     #i {
+        font-size: 2rem;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    #calcifer {
+        width:50%;
+        height:auto;
+    }
+    #i {
+        font-size: 2.5rem;
+    }
+} 
+
